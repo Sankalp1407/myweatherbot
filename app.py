@@ -18,6 +18,7 @@ def webhook():
     print("Request:")
     
     print(json.dumps(req))
+    object = WeatherData()
 
     res = object.processRequest(req)
 
