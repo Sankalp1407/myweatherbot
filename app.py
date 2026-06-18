@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'Web App with Python Flask!'
+    return 'VERSION_999'
 
 # geting and sending response to dialogflow
 @app.route('/webhook', methods=['POST'])
